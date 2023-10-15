@@ -1,0 +1,28 @@
+{
+    "checkLanguage":{
+        "elementLanguage":".css-1a4urrd-DivWrapper.e14l9ebt2 > div.css-1inll25-DivMainNavContainer.e14l9ebt9 > div:nth-child(1) > a > h2"
+    },
+    "vietnamese":{
+        "elementLike":".tiktok-ccy4er-DivFlexCenterRow-StyledWrapper.e1uhaioz2 > div:nth-child(1) > button:nth-child(1) > strong",
+        "elementTotalComment":".tiktok-ccy4er-DivFlexCenterRow-StyledWrapper.e1uhaioz2 > div:nth-child(1) > button:nth-child(2) > strong",
+        "elementClick":"#app > div.tiktok-19fglm-DivBodyContainer.e1irlpdw0 > div.tiktok-1tb2b1j-DivMainContainer.elnrzms0 > div:nth-child(1) > div:nth-child(1) > div > div.tiktok-kd7foj-DivVideoWrapper.e1bh0wg716 > div.tiktok-wc6k4c-DivActionItemContainer.e1whjx9o0 > button:nth-child(2)",
+        "elementDate":".tiktok-6hn0mp-SpanOtherInfos.e1a1jgwc2 > span:nth-child(2)",
+        "elementContent":".tiktok-1h8ubbu-DivMainContent.e2ah3vm1 > div.tiktok-5dmltr-DivContainer.e1h0bjw60",
+        "elementShare":"#app > div.tiktok-19fglm-DivBodyContainer.e1irlpdw0 > div.tiktok-1tb2b1j-DivMainContainer.elnrzms0 > div:nth-child(1) > div:nth-child(1) > div > div.tiktok-kd7foj-DivVideoWrapper.e1bh0wg716 > div.tiktok-wc6k4c-DivActionItemContainer.e1whjx9o0 > button:nth-child(3) > strong",
+        "elementMusic":".tiktok-1h8ubbu-DivMainContent.e2ah3vm1 > h4 > a",
+        "elementProfile":".tiktok-3q30id-DivContentContainer.e2ah3vm0 > div.tiktok-1h8ubbu-DivMainContent.e2ah3vm1",
+        "elementErrorSearch":".tiktok-19fglm-DivBodyContainer.e1irlpdw0 > div.tiktok-mldqij-DivMainContainer.ea3pfar0 > div.tiktok-1fwlm1o-DivPanelContainer.ea3pfar2 > div > p"
+
+    },
+    "english":{
+        "elementSearchBar":"div > form > input",
+        "elementLoadMore":".tiktok-14xbhsu-DivMoreContainer.e17vxm6m0 > button",
+        "elementPost":".tiktok-1soki6-DivItemContainerForSearch.e19c29qe9",
+        "elementTabVideo":"#tabs-0-tab-search_video",
+        "elementUrlPost":".tiktok-bbkab3-DivContainer.e1cg0wnj0 > div > div > a",
+        "elementDate":".tiktok-11u47i-DivCardFooter.e148ts220 > div",
+        "elementErrorSearch":".tiktok-1fwlm1o-DivPanelContainer.ea3pfar2 > div > h2",
+        "elementCacha":"#tiktok-verify-ele > div"
+                                
+    }
+}
