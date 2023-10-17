@@ -8322,3 +8322,6 @@
 2023-10-15 23:39:39 | TimeoutError: Timeout exceeded while waiting for event | cookie:0|  index:3
 2023-10-15 23:39:39 | TimeoutError: Timeout exceeded while waiting for event | cookie:2|  index:3
 2023-10-15 23:39:39 | TimeoutError: Timeout exceeded while waiting for event | cookie:1|  index:3
+2023-10-16 08:43:07 | TimeoutError: Navigation timeout of 30000 ms exceeded | cookie:8|  index:0
+2023-10-16 08:43:14 | [object Object] |cookie:undefined| index:undefined
+2023-10-16 08:43:14 | loi loi |cookie:8| index:0

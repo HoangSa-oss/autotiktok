@@ -94,18 +94,14 @@ export default async function workkey (indexCookie,job,browser,ordinalCookie){
         }
     
     } catch (error) {
-        let indexCookieIsDeleted =[]
-        if(error.message=='Waiting for selector `a > span > svg` failed: Waiting failed: 30000ms exceeded'){
-            indexCookieIsDeleted = [indexCookie,ordinalCookie]
-        }
-
+  
         logger.info({message:error,cookie1:`${ordinalCookie}`,cookie2:`${indexCookie}`})
         try {
             await page.close()
         } catch (error) {
             console.log(error)
         }   
-        return indexCookieIsDeleted
+   
         
     }
    
