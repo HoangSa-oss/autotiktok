@@ -57,7 +57,7 @@ const  tiktokProfile = async(cookie)=>{
           executablePath:executablePath()
     
     }); 
-    let ordinalCookie1 = 0
+    let ordinalCookie1 = 50
     queueKeyWordApi.process(async(job,done)=>{
         let arrayData = await workkeyfunction(cookie,job,browser1,ordinalCookie1)
         console.log(arrayData.length)
@@ -69,6 +69,8 @@ const  tiktokProfile = async(cookie)=>{
                     await insert.save()
                 } 
             })
+            ordinalCookie1++
+
         }else{
             logger.info({message:"loi loi",cookie1:cookie,cookie2:ordinalCookie1})
             if(job.data.addQueued<sumQueued){
@@ -83,7 +85,7 @@ const  tiktokProfile = async(cookie)=>{
         done()
     })
 }
-for(let i=0;i<10;i++){
+for(let i=0;i<1;i++){
     console.log(i)
     tiktokProfile(i)
 }

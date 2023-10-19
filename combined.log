@@ -8325,3 +8325,15 @@
 2023-10-16 08:43:07 | TimeoutError: Navigation timeout of 30000 ms exceeded | cookie:8|  index:0
 2023-10-16 08:43:14 | [object Object] |cookie:undefined| index:undefined
 2023-10-16 08:43:14 | loi loi |cookie:8| index:0
+2023-10-19 14:53:41 | Error: Protocol error (Input.dispatchKeyEvent): Session closed. Most likely the page has been closed. | cookie:0|  index:50
+2023-10-19 14:53:41 | [object Object] |cookie:undefined| index:undefined
+2023-10-19 14:53:41 | loi loi |cookie:0| index:50
+2023-10-19 14:54:59 | Navigation failed because browser has disconnected! | cookie:0|  index:50
+2023-10-19 14:54:59 | [object Object] |cookie:undefined| index:undefined
+2023-10-19 14:54:59 | loi loi |cookie:0| index:50
+2023-10-19 14:58:04 | 368 |cookie:0| index:50
+2023-10-19 14:59:22 | 416 |cookie:0| index:51
+2023-10-19 15:00:27 | 383 |cookie:0| index:52
+2023-10-19 15:01:36 | 372 |cookie:0| index:53
+2023-10-19 15:02:55 | 433 |cookie:0| index:54
+2023-10-19 15:04:07 | 431 |cookie:0| index:55

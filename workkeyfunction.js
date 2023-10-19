@@ -95,7 +95,7 @@ export default async function workkey (indexCookie,job,browser,ordinalCookie){
     
     } catch (error) {
   
-        logger.info({message:error,cookie1:`${ordinalCookie}`,cookie2:`${indexCookie}`})
+        logger.info({message:error.message,cookie1:`${ordinalCookie}`,cookie2:`${indexCookie}`})
         try {
             await page.close()
         } catch (error) {
